@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans&display=swap');
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 20;
   background-color: rgb(242,245,245);
   color: rgba(0,0,0,0.7);
   line-height: 1;
@@ -55,10 +56,10 @@ a{
   border-radius: 3%;
 }
 .btn-blue {
-  background-color: #1f4068;
-  padding: 8px 24px;
+  background-color: #0C7489;
+  padding: 16px 24px;
   color: white;
-  border-radius: 4px;
+  border-radius: 20px;
   display: inline-block;
   /*stay inline but behave like a block, respect padding and margin on all sides*/
   margin: 15px;
@@ -82,7 +83,7 @@ a{
 
 .fab {
   font-size: 60px;
-  transition: 0.7;
+  transition: 0.7s;
 }
 
 .fab:hover{
