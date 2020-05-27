@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(242,245,245);
+  color: rgba(0,0,0,0.7);
+  line-height: 1;
+}
+
+h1, h2{
+  font-family: 'Merriweather', serif;
+  font-size: 30;
+  line-height: 2;
+  color:#004E64;
+}
+a{
+  text-decoration: none;
+  color:#0C7489;
+  transition:0.7;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.container{
+  padding: 24px;
+  text-align: center;
+  margin: 30px auto;
+
+}
+.card{
+  padding-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 0 1px grey;
+  border-radius: 3px;
+
+}
+
+.img-circle {
+  border-radius: 3%;
+}
+.btn-blue {
+  background-color: #1f4068;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+  /*stay inline but behave like a block, respect padding and margin on all sides*/
+  margin: 15px;
+  transition: 0.7s;
+}
+
+.btn-blue:hover {
+  color: white;
+ background-color: black;
+}
+
+.list-inline {
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.fab {
+  font-size: 60px;
+  transition: 0.7;
+}
+
+.fab:hover{
+  color: black;
+}
